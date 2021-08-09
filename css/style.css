@@ -1,0 +1,390 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+  .body {
+    color: #000;
+  }
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .nav{
+      background-color: #F5FAFF;
+  }
+  .nav__content{
+      display: flex;
+      align-items: center;
+      padding-top: 30px;
+     
+  }
+  .nav__list{
+      display: flex;
+  }
+  .nav__link{
+    margin-left: 56px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+  }
+  
+.sig{
+    font-weight: normal;
+font-size: 14px;
+line-height: 14px;
+color: #000000;
+margin-left: 282px;
+margin-right: 40px;
+}
+.btn{
+  display: inline-block;
+  background: #3097F5;
+  border-radius: 5px;
+  color: white;
+  padding: 12px 24px;
+}
+
+
+.header{
+    background-color: #F5FAFF;
+}
+.header__content{
+    padding-top: 214px;
+    display: flex;
+}
+.header__title{
+    font-weight: bold;
+font-size: 45px;
+line-height: 65px;
+}
+.header__descr{
+    font-size: 16px;
+line-height: 150%;
+color: rgba(0, 0, 0, 0.7);
+padding-top: 32px;
+padding-bottom: 60px;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    color: #268BE7;
+padding-left: 32px;
+}
+.arrow__img{
+    padding-left: 16px;
+}
+.header__lii{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.help__text{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+.helper{
+    display: flex;
+    align-items: center;
+}
+.help__cc-title{
+    font-weight: bold;
+font-size: 20px;
+line-height: 20px;
+padding-top: 32px;
+padding-left: 32px;
+
+}
+.help__cc-descr{
+    font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+margin-top: 12px;
+padding-bottom: 32px;
+padding-left: 32px;
+}
+.help__cc{
+    margin-top: 24px;
+}
+.help__cc:first-child{
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+margin-top: 0;
+}
+
+.fc{
+    margin-top: 79px;
+}
+.fc__content{
+    display: flex;
+}
+.qq{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
+.fc__card{
+    padding: 32px;
+    margin-right: 30px;
+}
+.fc__card:last-child{
+    margin-right: 0;
+}
+.fc__card:hover{
+    box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+.fc__title{
+    font-weight: bold;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+padding-bottom: 24px;
+}
+.fc__descr{
+    font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+text-align: center;
+color: rgba(0, 0, 0, 0.7);
+}
+
+
+.for__content{
+    display: flex;
+    align-items: center;
+    margin-top: 213px;
+}
+.for__title{
+    font-weight: bold;
+font-size: 36px;
+line-height: 36px;
+padding-bottom: 40px;
+}
+.for__descr{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+.for__left{
+    margin-right: 130px;
+}
+
+
+
+
+.fcb{
+    margin-top: 117px;
+}
+.fc__content{
+    display: flex;
+}
+.qq{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
+.fcb__card{
+    padding: 32px;
+    margin-right: 30px;
+}
+.fcb__card:last-child{
+    margin-right: 0;
+}
+.fcb__card:hover{
+    box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+}
+.fc__title{
+    font-weight: bold;
+font-size: 20px;
+line-height: 20px;
+text-align: center;
+padding-bottom: 24px;
+}
+.fc__descr{
+    font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+text-align: center;
+color: rgba(0, 0, 0, 0.7);
+}
+
+.by{
+    margin-top: 228px;
+}
+.by__content{
+    display: flex;
+    align-items: center;
+}
+.by__title{
+    font-weight: bold;
+font-size: 36px;
+line-height: 36px;
+}
+.by__subtitle{
+    font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+margin-top: 40px;
+}
+.by__left{
+    margin-right: 146px;
+}
+.by__topc{
+    display: flex;
+    margin-left: 235px;
+    margin-bottom: 25px;
+}
+.by__botc{
+    display: flex;
+}
+.ll{
+    margin-right: 17px;
+}
+
+
+.what{
+    margin-top: 160px;
+}
+.what__title{
+    font-weight: bold;
+font-size: 36px;
+line-height: 30px;
+text-align: center;
+margin-bottom: 64px;
+}
+.what__content{
+    justify-content: center;
+}
+.what__cards{
+    max-width: 970px;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    margin-bottom: 80px;
+    justify-content: center;
+    justify-content: space-between;
+}
+.what__card{
+    background: #FFFFFF;
+box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+border-radius: 5px;
+padding: 40px;
+max-width: 470px;
+}
+.what__card-img{
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+.what__card-img:last-child{
+    margin-right: 0;
+}
+.what__card-title{
+    font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+margin-bottom: 24px;
+}
+.what__card-subtitle{
+    font-weight: bold;
+font-size: 16px;
+line-height: 16px;
+}
+.str{
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+border-radius: 74px;
+}
+.what__st{
+    display: flex;
+    justify-content: center;
+}
+.str1{
+    margin-right: 70px;
+}
+
+
+
+.from{
+    background: #042A74;
+    margin-top: 148px;
+}
+.from__title{
+    font-weight: bold;
+font-size: 36px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 128px;
+margin-bottom: 56px;
+}
+.from__btnn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 128px;
+}
+.from__btn{
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 32px;
+
+}
+
+
+
+.footer{
+    position: relative;
+  }
+  .footer__content{
+    padding-top: 77px;
+    padding-bottom: 72px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .footer__img{
+    margin-right: 118px;
+  }
+  .footer__cont{
+    display: flex;
+  
+  }
+  .footer__links{
+    margin-right: 109px;
+  }
+  .footer__link{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000;
+  
+  }
+  .lii{
+    font-weight: bold;
+font-size: 16px;
+line-height: 16px;
+    margin-bottom: 24px;
+    color: #000;
+  
+  }
+  .footer__ll{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+  }
